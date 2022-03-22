@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-mysqlparser-master.flake = false;
+  inputs.src-mysqlparser-master.ref   = "refs/heads/master";
   inputs.src-mysqlparser-master.owner = "tulayang";
-  inputs.src-mysqlparser-master.ref   = "master";
   inputs.src-mysqlparser-master.repo  = "mysqlparser.git";
   inputs.src-mysqlparser-master.type  = "github";
   
