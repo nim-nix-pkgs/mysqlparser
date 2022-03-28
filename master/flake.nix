@@ -11,7 +11,6 @@
   inputs.src-mysqlparser-master.ref   = "refs/heads/master";
   inputs.src-mysqlparser-master.owner = "tulayang";
   inputs.src-mysqlparser-master.repo  = "mysqlparser";
-  inputs.src-mysqlparser-master.dir   = "";
   inputs.src-mysqlparser-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
